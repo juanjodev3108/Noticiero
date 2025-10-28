@@ -1,6 +1,5 @@
-
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,6 +15,21 @@
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/4.1/examples/blog/blog.css" rel="stylesheet">
+    
+    <style>
+      /* Estilos mínimos para mejorar la visualización */
+      .card-img-bottom {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+      }
+      .card {
+        transition: transform 0.2s;
+      }
+      .card:hover {
+        transform: translateY(-3px);
+      }
+    </style>
   </head>
 
   <body>
@@ -283,8 +297,8 @@
       ?>
       <div class="row mb-2">
         <div class="col-md-4">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body d-flex flex-column align-items-start">
               <strong class="d-inline-block mb-2 text-primary">Deportes</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
@@ -303,14 +317,13 @@
                   echo $deportes["resumen"];
                 ?>
               </p>
-              <img src="/img/deportes.jpeg" alt="Descripción de la imagen">
-
             </div>
+            <img src="img/deportes.jpeg" class="card-img-bottom" alt="Deportes" onerror="this.style.display='none'">
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body d-flex flex-column align-items-start">
               <strong class="d-inline-block mb-2 text-success">Televisión</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
@@ -330,14 +343,13 @@
                 ?>
               </p>
             </div>
-            <img src="/img/television.jpg" alt="Descripción de la imagen">
-
+            <img src="img/television.jpg" class="card-img-bottom" alt="Televisión" onerror="this.style.display='none'">
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
-              <strong class="d-inline-block mb-2 text-success">Televisión</strong>
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-danger">Video</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
                   <?php
@@ -355,9 +367,8 @@
                   echo $video["resumen"];
                 ?>
               </p>
-
             </div>
-            <img src="/img/video.jpg" alt="Descripción de la imagen">
+            <img src="img/video.jpg" class="card-img-bottom" alt="Video" onerror="this.style.display='none'">
           </div>
         </div>
       </div>
@@ -371,8 +382,8 @@
       ?>
       <div class="row mb-2">
         <div class="col-md-4">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body d-flex flex-column align-items-start">
               <strong class="d-inline-block mb-2 text-primary">Formación</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
@@ -392,12 +403,12 @@
                 ?>
               </p>
             </div>
-            <img src="/img/formacion.jpeg" alt="Descripción de la imagen">
+            <img src="img/formacion.jpeg" class="card-img-bottom" alt="Formación" onerror="this.style.display='none'">
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body d-flex flex-column align-items-start">
               <strong class="d-inline-block mb-2 text-success">Empleo</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
@@ -417,13 +428,13 @@
                 ?>
               </p>
             </div>
-            <img src="/img/empleo.jpg" alt="Descripción de la imagen">
+            <img src="img/empleo.jpg" class="card-img-bottom" alt="Empleo" onerror="this.style.display='none'">
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
-              <strong class="d-inline-block mb-2 text-success">Sociedad</strong>
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-info">Sociedad</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
                   <?php
@@ -442,8 +453,7 @@
                 ?>
               </p>
             </div>
-            <img src="/img/sociedad.jpg" alt="Descripción de la imagen">
-
+            <img src="img/sociedad.jpg" class="card-img-bottom" alt="Sociedad" onerror="this.style.display='none'">
           </div>
         </div>
       </div>
