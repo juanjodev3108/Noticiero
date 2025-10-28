@@ -303,7 +303,7 @@
                   echo $deportes["resumen"];
                 ?>
               </p>
-              <img src="img/deportes.jpeg" alt="Descripción de la imagen">
+              <img src="/img/deportes.jpeg" alt="Descripción de la imagen">
 
             </div>
           </div>
@@ -330,7 +330,7 @@
                 ?>
               </p>
             </div>
-            <img src="img/television.jpg" alt="Descripción de la imagen">
+            <img src="/img/television.jpg" alt="Descripción de la imagen">
 
           </div>
         </div>
@@ -357,7 +357,7 @@
               </p>
 
             </div>
-            <img src="img/video.jpg" alt="Descripción de la imagen">
+            <img src="/img/video.jpg" alt="Descripción de la imagen">
           </div>
         </div>
       </div>
@@ -392,7 +392,7 @@
                 ?>
               </p>
             </div>
-            <img src="img/formacion.jpeg" alt="Descripción de la imagen">
+            <img src="/img/formacion.jpeg" alt="Descripción de la imagen">
           </div>
         </div>
         <div class="col-md-4">
@@ -417,7 +417,7 @@
                 ?>
               </p>
             </div>
-            <img src="img/empleo.jpg" alt="Descripción de la imagen">
+            <img src="/img/empleo.jpg" alt="Descripción de la imagen">
           </div>
         </div>
         <div class="col-md-4">
@@ -442,7 +442,7 @@
                 ?>
               </p>
             </div>
-            <img src="img/sociedad.jpg" alt="Descripción de la imagen">
+            <img src="/img/sociedad.jpg" alt="Descripción de la imagen">
 
           </div>
         </div>
